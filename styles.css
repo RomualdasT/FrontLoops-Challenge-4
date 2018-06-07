@@ -1,0 +1,188 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: rgb(134,165,192);
+background: radial-gradient(circle, rgba(134,165,192,1) 0%, rgba(202,217,230,1) 100%);
+}
+.clear {
+    clear: both;
+}
+hr {
+    width: 96%;
+}
+
+.message {
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+.sender {
+    background-color: #6a96d8;
+    padding: 15px;
+}
+
+#circle {
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 20px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.name {
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .1em;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.exit {
+    display: inline;
+    float: right;
+    opacity: .8;
+}
+
+.exit:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.chat-body {
+    padding: 15px;
+    background-color: #fff;
+}
+.date {
+    width: 94%;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    line-height: 0.1em;
+    margin: 15px auto;
+}
+
+.date span {
+    background: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #dedede;
+}
+.time {
+    font-size: 12px;
+    opacity: .3;
+    font-weight: 500;
+    line-height: 5px;
+    padding-bottom: 0px;
+}
+.received {
+    text-align: right;
+}
+.msg-body {
+    margin-top: -5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    max-width: 66%;
+    background-color: #e6edf6;
+    padding: 10px 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.received-message .msg-body {
+    background-color: #f2f2f2;
+    float: right;
+    margin-right: 15px;
+}
+
+.received-message .msg-body.banned {
+    background-color: #ffc2c1;
+    margin-right: 0px;
+}
+/* chatt bubbles triangles */
+.tri-right .left-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #e6edf6 transparent transparent transparent;
+}
+
+.tri-right.left-top:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -15px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 15px solid;
+    border-color: #e6edf6 transparent transparent transparent;
+}
+
+.tri-right.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -15px;
+  top: 0;
+	bottom: auto;
+	border: 15px solid;
+	border-color: #f2f2f2 transparent transparent transparent;
+}
+.tri-right.right-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 0px;
+	bottom: auto;
+	border-color: #f2f2f2 transparent transparent transparent;
+}
+
+/* input */
+.form-group {
+    width: 80%;
+}
+.form-control {
+    border: none;
+    margin-top: 0px;
+    height: 20px;
+    padding-left: 15px;
+}
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+.btn {
+    background-color: transparent;
+    color: #6a96d8;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    border: none;
+    height: 20px;
+}
+
+.btn:hover {
+   background-color: transparent;
+    color: #6a96d8;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    border: none;
+    height: 20px; 
+}
